@@ -1,0 +1,31 @@
+{
+  "name": "function-send-sms-chat-channel",
+  "version": "1.0.0",
+  "description": "Sends SMS and adds message to chat channel",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/trogers-twilio/function-send-sms-chat-channel.git"
+  },
+  "author": "Terence Rogers (Twilio)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/trogers-twilio/function-send-sms-chat-channel/issues"
+  },
+  "homepage": "https://github.com/trogers-twilio/function-send-sms-chat-channel#readme",
+  "dependencies": {
+    "js-base64": "^2.5.1",
+    "node-fetch": "^2.5.0",
+    "twilio": "^3.30.3",
+    "uuid": "^3.3.2"
+  },
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.17.2",
+    "twilio-run": "^1.0.1"
+  }
+}
